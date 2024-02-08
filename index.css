@@ -1,0 +1,54 @@
+.all{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 60% 10% 10% 10% 10%;
+}
+.menu-text{
+    font-size: large;
+    margin-top: 40px;
+}
+.row1{
+    position: relative;
+}
+.row1 img{
+    width: 100%;
+}
+.row1 .banner-text{
+    position: absolute;
+    top: 0%;
+    margin-left: 350px;
+    color: rgb(191, 215, 236);
+}
+.banner-text2{
+    margin-left: 50px;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+}
+.row2 img{
+    width: 99%;
+    padding-bottom: 0px;
+    padding-right: 10px;
+    border-radius: 20px;
+}
+
+.combo1 {
+    width: 100%;
+ }
+ 
+ .combo2 {
+    width: 100%;
+ }
+
+ .lastcombo{
+    height: 99%;
+ }
+.row3{
+    display: grid;
+    grid-template-columns: 66.66% 33.33%;
+}
